@@ -521,15 +521,6 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-.col-span-4 {
-  grid-column: span 4 / span 4;
-}
-.col-span-5 {
-  grid-column: span 5 / span 5;
-}
 .col-span-full {
   grid-column: 1 / -1;
 }
@@ -541,9 +532,6 @@ video {
 }
 .grid {
   display: grid;
-}
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -668,36 +656,8 @@ body {
     grid-column: span 2 / span 2;
   }
 
-  .sm\:grid {
-    display: grid;
-  }
-
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .sm\:grid-rows-\[\] {
-    grid-template-rows: ;
-  }
-
-  .sm\:grid-rows-\[82\] {
-    grid-template-rows: 82;
-  }
-
-  .sm\:grid-rows-\[82px\] {
-    grid-template-rows: 82px;
-  }
-
-  .sm\:grid-rows-\[82px_auto\] {
-    grid-template-rows: 82px auto;
-  }
-
-  .sm\:grid-rows-\[82px_auto_auto\] {
-    grid-template-rows: 82px auto auto;
-  }
-
-  .sm\:grid-rows-\[82px_auto_auto_\] {
-    grid-template-rows: 82px auto auto;
   }
 
   .sm\:grid-rows-\[82px_auto_auto_82px\] {
@@ -719,48 +679,8 @@ body {
     grid-column: span 4 / span 4;
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
-  .md\:grid-rows-\[\] {
-    grid-template-rows: ;
-  }
-
-  .md\:grid-rows-\[82px\] {
-    grid-template-rows: 82px;
-  }
-
-  .md\:grid-rows-\[82px_\] {
-    grid-template-rows: 82px;
-  }
-
-  .md\:grid-rows-\[82px_250\] {
-    grid-template-rows: 82px 250;
-  }
-
-  .md\:grid-rows-\[82px_250_250\] {
-    grid-template-rows: 82px 250 250;
-  }
-
-  .md\:grid-rows-\[82px_250_250_250_82\] {
-    grid-template-rows: 82px 250 250 250 82;
-  }
-
-  .md\:grid-rows-\[82px_250px_250_250_82\] {
-    grid-template-rows: 82px 250px 250 250 82;
-  }
-
-  .md\:grid-rows-\[82px_250px_250px_250_82\] {
-    grid-template-rows: 82px 250px 250px 250 82;
-  }
-
-  .md\:grid-rows-\[82px_250px_250px_250px_82\] {
-    grid-template-rows: 82px 250px 250px 250px 82;
   }
 
   .md\:grid-rows-\[82px_250px_250px_250px_82px\] {

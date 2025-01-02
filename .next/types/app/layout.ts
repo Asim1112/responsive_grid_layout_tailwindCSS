@@ -1,4 +1,4 @@
-// File: C:\Users\asimh\Desktop\responsive grid layout (assignment)\src\app\layout.tsx
+// File: F:\GIAIC 2nd Qaurter\Assignments\class 10th assignment\responsive grid layout in tailwind css (assignment)\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
